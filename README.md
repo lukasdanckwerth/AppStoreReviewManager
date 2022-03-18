@@ -43,10 +43,8 @@ ASRManager.default.lastVersionPromptedForReview
 // get or set the collections of review wortht action numbers
 ASRManager.default.reviewWorthyActionsNumbers = [ 11, 22, 33, 44 ]
 
-// default implementation
+// default implementation will print "[10, 25, 50, 100, 200, 400, 600, 1200]"
 print(ASRManager.default.reviewWorthyActionsNumbers)
-
-// prints "[10, 25, 50, 100, 200, 400, 600, 1200]"
 
 ```
 

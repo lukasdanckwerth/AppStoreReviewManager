@@ -1,20 +1,15 @@
 # AppStoreReviewManager
 
-Request an App Store review on specified action count number. 
+> Request an App Store review on specified action count numbers.
 
-### Use
-
-Using `ASRManager` is as simple as:
+### How to use
+Using [`ASRManager`](Sources/AppStoreReviewManager/ASRManager.swift) is as simple as:
 
 ```swift
-// call to increase actions count and request review if
-// review worthy numbers contain the actions count
-
 ASRManager.default.requestReviewIfAppropriate()
-
 ```
 
-And has the following functionality:
+Call the above function to increase actions count and request review if review worthy numbers contain the actions count.
 
 #### Reset values
 
@@ -64,7 +59,15 @@ ASRManager.default.delay = 1.2
 
 ```
 
+### Swift Package Manager
+```swift
+dependencies: [
+    .package(url: "https://github.com/lukasdanckwerth/AppStoreReviewManager.git", from: "1.0.0")
+]
+```
+
 ### Requierments
 
  - iOS 10.3
+ - Swift 5
  - StoreKit

@@ -46,8 +46,6 @@ print(ASRManager.default.reviewWorthyActionsNumbers)
 // get or set the collections of review wortht action numbers
 ASRManager.default.reviewWorthyActionsNumbers = [ 11, 22, 33, 44 ]
 
-
-
 ```
 
 #### Delay

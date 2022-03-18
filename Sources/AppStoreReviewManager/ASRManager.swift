@@ -1,5 +1,5 @@
 //
-//  AppStoreReviewManager.swift
+//  ASRManager.swift
 //  AppStoreReviewManager
 //
 //  Created by Lukas on 25.12.20.

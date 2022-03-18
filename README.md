@@ -4,7 +4,7 @@ Request an App Store review on specified action count number.
 
 ### Use
 
-Using `AppStoreReviewManager` is as simple as:
+Using `ASRManager` is as simple as:
 
 ```swift
 // call to increase actions count and request review if

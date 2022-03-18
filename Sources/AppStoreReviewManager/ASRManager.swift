@@ -142,6 +142,7 @@ extension ASRManager {
 
 
 #if canImport(UIKit)
+@available(iOS 13.0, *)
 extension UIApplication {
     var currentScene: UIWindowScene? {
         connectedScenes.first { $0.activationState == .foregroundActive } as? UIWindowScene

@@ -5,13 +5,13 @@
 > Request an App Store review on specified action count numbers.
 
 ### How to use
-Using [`ASRManager`](Sources/AppStoreReviewManager/ASRManager.swift) is as simple as:
+Using [`AppStoreReviewManager`](Sources/AppStoreReviewManager/ASRManager.swift) is as simple as:
 
 ```swift
 ASRManager.default.requestReviewIfAppropriate()
 ```
 
-Call the above function to increase actions count and request review if review worthy numbers contain the actions count.
+Call the above function to increase actions count and request review if review worthy numbers contain the new actions count.
 
 #### Reset values
 
@@ -52,7 +52,7 @@ print(ASRManager.default.reviewWorthyActionsNumbers)
 
 #### Delay
 
-Often its nicer to have a delay for the request to appear. When user does a review worth action it's smoother if waiting for some delay. Default implementation is `1.0` second.
+Often its nice to have a delay for the request to appear. When user does a review worth action it's smoother if waiting for some delay. Default implementation is `1.0` second.
 
 ```swift
 

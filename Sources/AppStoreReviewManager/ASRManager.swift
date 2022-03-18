@@ -58,11 +58,17 @@ public class ASRManager {
     ///
     func requestReview() {
         if #available(iOS 14.0, *) {
+            
+#if canImport(UIKit)
             if let scene = UIApplication.shared.currentScene {
                 SKStoreReviewController.requestReview(in: scene)
             }
+#endif
+            
         } else if #available(iOS 10.3, *) {
+            
             SKStoreReviewController.requestReview()
+            
         } else {
             // empty
         }
@@ -134,10 +140,13 @@ extension ASRManager {
     public static var `default`: ASRManager = ASRManager()
 }
 
-@available(iOS 13.0, *)
+
+#if canImport(UIKit)
 extension UIApplication {
     var currentScene: UIWindowScene? {
         connectedScenes.first { $0.activationState == .foregroundActive } as? UIWindowScene
     }
 }
+#endif
+
 #endif

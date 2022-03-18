@@ -5,9 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "AppStoreReviewManager",
+    platforms: [
+        .iOS(.v10)
+    ],
     products: [
         .library(
-            name: "ASRManager",
+            name: "AppStoreReviewManager",
             targets: ["AppStoreReviewManager"]),
     ],
     targets: [

@@ -1,5 +1,5 @@
 # AppStoreReviewManager
-
+[![Swift](https://github.com/lukasdanckwerth/AppStoreReviewManager/actions/workflows/swift.yml/badge.svg)](https://github.com/lukasdanckwerth/AppStoreReviewManager/actions/workflows/swift.yml)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 > Request an App Store review on specified action count numbers.

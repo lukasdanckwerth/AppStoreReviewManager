@@ -1,5 +1,7 @@
 # AppStoreReviewManager
 
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+
 > Request an App Store review on specified action count numbers.
 
 ### How to use
